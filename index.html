@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- materialize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- materialize js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class = "card-panel #cfd8dc blue-grey lighten-4 z-depth-3"><h1>Weather</h1></div>
+    </header>
+
+    <div class="input">
+        <div class="input-field inline">
+            <input id="text_inline" type="text" class="input" placeholder="Where to?">
+            <input type="submit" class="button" value="Submit">
+            <label for="text_inline">City</label>
+        </div>
+    </div>
+    
+    <div class="display">
+        <h2 class="name"></h2>
+        <p class="desc"></p>
+        <p class="temp"></p>
+    </div>
+
+    <script src="/assets/js/javascript.js"></script>
+</body>
+</html>
